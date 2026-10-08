@@ -1,15 +1,12 @@
-# MacTech IT — entregas de código fuente
+# MacTech IT — código fuente
 
-## 0.11.0 — build 18
+## 0.11.1 build 19
+ZIP actual: MacTechIT_0.11.1_Source.zip, SHA-256 en el archivo adyacente .sha256.
 
-Descargue `MacTechIT_0.11.0_Source.zip`; checksum en `MacTechIT_0.11.0_Source.zip.sha256`.
+Macbook: categoría Borrado y formato, APFS/ExFAT sólo para disco físico externo con las guardas existentes y Erase Assistant sólo para ESTA Mac. Confirmaciones GUI/Terminal y autenticación oficiales se conservan. iPhone/iPad: identificación y frase en Terminal antes de abrir Finder; la restauración se confirma allí. No formatea iOS como un disco ni borra automáticamente.
 
-Incluye panel Macbook para MacBook Air/Pro con ámbitos anfitrión/objetivo, ocho categorías y Runner/expedientes reutilizados. Snippets: 71 macOS experto y 10 iPhone/iPad, nueve categorías macOS, filtros, requisitos, parámetros, riesgos, interpretación, vista previa y copiar/arrastrar sin salto ni ejecución automática.
+PASS estático: 44 scripts Bash, 82 snippets/argumentos sintéticos, rutas y confirmaciones, gramática Swift/80 bloques de contenedor. NO EJECUTADOS compilación Swift, selftests, GUI ni operaciones sobre dispositivos. No se entrega DMG.
 
-Validación en Linux: 42 scripts Bash, 81 comandos preparados y argumentos sintéticos, catálogo/recursos, gramática de diez Swift y 79 bloques de contenedor inspeccionados. NO ejecutados Swift/selftests/GUI ni comandos nativos de dispositivos. Sin DMG compilado.
+Extraiga en carpeta nueva y lea AGENTS.md, docs/PROJECT_STATUS.md, MACBOOK_SUPPORT.md e IOS_SUPPORT.md. Compile en macOS: `/bin/bash Build_DMG.command`.
 
-Extraiga en carpeta nueva, lea AGENTS.md y docs/PROJECT_STATUS.md. Guías: docs/MACBOOK_SUPPORT.md, docs/SNIPPETS.md y docs/VALIDATION_0.11.0.md. En macOS con CLT: `/bin/bash Build_DMG.command`.
-
-## 0.10.0 — build 17
-
-La entrega anterior `MacTechIT_0.10.0_Source.zip` se conserva; su checksum está en `SHA256.txt`. Incluye corrección del límite de diez elementos ViewBuilder. Compilación macOS no certificada aquí.
+Se conservan los ZIP de 0.11.0 y 0.10.0 y sus checksums para referencia.
