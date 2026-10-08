@@ -1,11 +1,15 @@
-# MacTech IT 0.10.0 — código fuente
+# MacTech IT — entregas de código fuente
 
-ZIP con fuentes y constructor, no app/DMG compilados. Incluye seguimiento de expedientes, checklist de cierre, bitácora, biblioteca, CSV y checksums de revisiones.
+## 0.11.0 — build 18
 
-Validación: comprobaciones estáticas y análisis de gramática Swift; compilación, selftests, GUI y DMG pendientes en macOS. No se ejecutaron operaciones sobre dispositivos.
+Descargue `MacTechIT_0.11.0_Source.zip`; checksum en `MacTechIT_0.11.0_Source.zip.sha256`.
 
-En GitHub, abra `MacTechIT_0.10.0_Source.zip` y utilice el botón de descarga del archivo. Verifique `SHA256.txt`. Tras extraer, lea `AGENTS.md` y `docs/PROJECT_STATUS.md`; compile en macOS con `/bin/bash Build_DMG.command`.
+Incluye panel Macbook para MacBook Air/Pro con ámbitos anfitrión/objetivo, ocho categorías y Runner/expedientes reutilizados. Snippets: 71 macOS experto y 10 iPhone/iPad, nueve categorías macOS, filtros, requisitos, parámetros, riesgos, interpretación, vista previa y copiar/arrastrar sin salto ni ejecución automática.
 
-## Build 17
+Validación en Linux: 42 scripts Bash, 81 comandos preparados y argumentos sintéticos, catálogo/recursos, gramática de diez Swift y 79 bloques de contenedor inspeccionados. NO ejecutados Swift/selftests/GUI ni comandos nativos de dispositivos. Sin DMG compilado.
 
-Corregido el límite de diez elementos de ViewBuilder del SDK reportado por el usuario mediante subviews para Seguimiento. Recompilación macOS pendiente; no se ha generado un nuevo DMG aquí.
+Extraiga en carpeta nueva, lea AGENTS.md y docs/PROJECT_STATUS.md. Guías: docs/MACBOOK_SUPPORT.md, docs/SNIPPETS.md y docs/VALIDATION_0.11.0.md. En macOS con CLT: `/bin/bash Build_DMG.command`.
+
+## 0.10.0 — build 17
+
+La entrega anterior `MacTechIT_0.10.0_Source.zip` se conserva; su checksum está en `SHA256.txt`. Incluye corrección del límite de diez elementos ViewBuilder. Compilación macOS no certificada aquí.
