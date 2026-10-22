@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apple Platform Engineer"
+  short_description: "Desarrollo Swift y soporte técnico Apple experto"
+  default_prompt: "Usa $apple-platform-engineer para revisar el proyecto, implementar los cambios Swift/iOS/macOS y verificar lo posible con evidencia, respetando AGENTS.md y sin operaciones reales sobre dispositivos durante pruebas."
